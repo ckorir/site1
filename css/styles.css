@@ -8,7 +8,7 @@ body{
     font-family: 'Grenze', serif;
     margin: 0;
     padding: 0;
-    background: url('/img/backg.jpg');
+    background: url('img/backg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -168,19 +168,19 @@ body{
 }
 
 #price{
-    background-image: url('/img/afford.png');
+    background-image: url('img/afford.png');
     background-color: #c4c4c417;
     background-size: contain;
     background-repeat: no-repeat;
 }
 #time{
-    background-image: url('/img/time.png');
+    background-image: url('img/time.png');
     background-color: #c4c4c417;
     background-size: contain;
     background-repeat: no-repeat;
 }
 #quality{
-    background-image: url('/img/quality.png');
+    background-image: url('img/quality.png');
     background-color: #c4c4c417;
     background-size: contain;
     background-repeat: no-repeat;
