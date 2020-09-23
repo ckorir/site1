@@ -168,7 +168,7 @@ body{
 }
 
 #price{
-    background-image: url('../img/afford.png');
+    background-image: url('./img/afford.png');
     background-color: #c4c4c417;
     background-size: contain;
     background-repeat: no-repeat;
