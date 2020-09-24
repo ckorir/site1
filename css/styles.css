@@ -48,6 +48,12 @@ body{
     font-weight: inherit;
 }
 
+.logo a{
+    display: flex;
+    text-decoration: none;
+    color: #BAC5E3;
+}
+
 .navbar{
     justify-content: space-between;
     padding: 0.1% 3%;
@@ -214,6 +220,8 @@ body{
     
     
 }
+
+
 
 .profileimg img{
     height: 250px;
