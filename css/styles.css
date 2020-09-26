@@ -8,13 +8,17 @@ body{
     font-family: 'Grenze', serif;
     margin: 0;
     padding: 0;
+    
+}
+
+#home{
     background: url('../img/backg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.team{
+.back{
     background-color: #59637b;
     height: 100vh;
 }
@@ -28,7 +32,7 @@ body{
     height: 42px;
     margin-top: 10px;
 }
-.team .logo img{
+.back .logo img{
     height: 42px;
     margin-top: 3px;
 }
@@ -65,7 +69,7 @@ body{
     position: fixed;
     width: 100%;
 }
-.team .navbar{
+.back .navbar{
     padding: 0.5% 3%;
 }
 
@@ -123,7 +127,8 @@ body{
 
 .detail{
     background-color: #59637b;
-    height: 46em;
+    height: 48em;
+    overflow: hidden;
 }
 
 .details{
@@ -145,11 +150,11 @@ body{
 
 .services{
     border-right: 8px solid #BAC5E3;
-    width: 36%;
+    width: 40%;
     height: 190px;
-    top: -25%;
+    top: -38%;
     left: 1%;
-    transform: translate(-1%, 25%);
+    transform: translate(-1%, 38%);
     padding-top: 0px;
     padding-right: 43px;
     text-align: start;
@@ -217,33 +222,32 @@ body{
 
 .profileimg{
     display: flex;
-    
-    
+    top: -25%;
+    left: -9%;
+    transform: translate(9%, 45%);
 }
-
-
 
 .profileimg img{
     height: 250px;
     width: 250px;
-    top: -76%;
-    left: -57%;
-    transform: translate(57%, 76%);
+    top: -18%;
+    left: -9%;
+    transform: translate(9%, 18%);
     border-radius: 80%;
 }
 
-.profinfo{
-    top: -45%;
-    left: -12%;
-    transform: translate(12%, 45%);
-    
+
+.slides{
+    top: -4%;
+    left: 1%;
+    transform: translate(-1%, 4%);
 }
 
 .slides{
+    padding-top: 0;
     width: 90%;
     height: 550px;
     align-content: center;
-    
 }
 
 .btn{
@@ -266,15 +270,49 @@ body{
 .navb{
     display: flex;
     justify-content: center;
-    top: -200%;
+    top: -130%;
     right: 395%;
-    transform: translate(-395%, 200%);
+    transform: translate(-395%, 10%);
     align-content: center;
     
 }
 
-.team{
-    overflow: hidden;
+.text{
+    font-weight: initial;
+}
+
+
+.main{
+    display: flex;
+    top: -90%;
+    left: 0%;
+    transform: translate(0%, 90%);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main .text{
+    font-weight: inherit;
+    font-size: 30px;
+    color: #E5E5E5;
+}
+
+input, textarea {
+    padding: 5px 120px;
+    border-radius: 7px;
+    background-color:  rgba(212, 226, 236, 0.411);
+    text-align: initial;
+    border: thin;
+    margin: 0;
+    
+}
+
+form{
+    line-height: 35px;
+}
+
+textarea {
+    resize: none;
 }
 
 .footer{
@@ -283,8 +321,7 @@ body{
     align-content: center;
     margin-top: 3.5%;
     padding: 15px;
-    top: -35%;
+    top: -95%;
     left: 0%;
     transform: translate(0%, 35%);
-    position: sticky;
 }
